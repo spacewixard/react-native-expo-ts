@@ -1,7 +1,7 @@
 import { MonoText } from "../StyledText";
 import { render, screen } from "@testing-library/react-native";
 
-it(`renders correctly`, () => {
+it("renders correctly", () => {
   render(<MonoText>Snapshot test!</MonoText>);
   expect(screen.getByText("Snapshot test!")).toBeTruthy();
 

@@ -1,0 +1,3 @@
+// Files which ESLint doesn't attempt to lint
+node_modules
+assets
