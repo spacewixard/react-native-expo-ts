@@ -9,7 +9,7 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "eslint .",
-    "prettier": "prettier ."
+    "format": "prettier ."
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
